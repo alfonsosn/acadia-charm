@@ -1,0 +1,110 @@
+/*Updates to Bootstrap*/
+
+@media (min-width: 992px) {
+  .container {
+    width: 900px !important;
+  }
+  #bungalow-pic{
+  	height: 200px; 
+  	width: 270px
+  }
+  #thumbnail-pic{
+  	height: 185px;
+  	width: 139px;
+  }
+}
+
+/*General Styling*/
+
+body{
+	background-color: #4d4d00 !important;
+}
+
+img{
+	margin: auto;
+}
+
+h1{
+	font-size: 6em !important;
+	font-family: 'Calligraffitti', cursive, !important;
+}
+
+h3, h4, h5{
+	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif !important;
+}
+
+p, li{
+	font-size: 1.15em !important;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
+.img-top{
+	padding-bottom: 10px;	
+}
+
+.img-bottom{
+	padding-top: 10px;	
+}
+
+.main{
+	background-color: white;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+
+/*Styling by Section -- Intro Sections*/
+
+	#pheader{
+		border-bottom: 2px solid #8dbf89 !important;
+	}
+
+	.overlay{
+		background-color: white;
+		opacity: 1;
+		transition: 0.2s ease-in-out;	
+	}
+	
+	.overlay:hover{
+		opacity: .8;
+	}
+
+
+	#nav-thumbnails{
+		text-align: center;
+		p{
+			font-weight: 00;
+		}	
+	}
+
+	.cottage-intro{
+		width: 100% !important;
+		&:hover:{
+			color: white;
+		};
+	}
+
+#bungalow, #cottage, #victorian{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.especial {
+	padding-top: 8px;
+}
+
+/* Styling by Cottage */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
