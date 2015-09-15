@@ -29,13 +29,15 @@ h1{
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
 }
 
+
+
 h3, h4, h5{
 	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif !important;
 }
 
 p, li{
 	font-size: 1.15em !important;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
 }
 
 .img-top{
@@ -55,6 +57,10 @@ p, li{
 /*Styling by Section */
 
 /* Intro Sections*/
+	#intro h4 {
+			font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+		}
+	
 
 	#pheader{
 		border-bottom: 2px solid #8dbf89 !important;
