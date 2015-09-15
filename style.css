@@ -52,7 +52,9 @@ p, li{
 	margin-bottom: 30px;
 }
 
-/*Styling by Section -- Intro Sections*/
+/*Styling by Section */
+
+/* Intro Sections*/
 
 	#pheader{
 		border-bottom: 2px solid #8dbf89 !important;
@@ -92,9 +94,11 @@ p, li{
 	padding-top: 8px;
 }
 
-/* Styling by Cottage */
+/* Styling for LightBox */
 
-
+.modal-dialog{
+	max-width: 500px !important;
+}
 
 
 
